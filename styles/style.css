@@ -60,4 +60,38 @@ nav ul li a:hover {
   font-size: 2.5rem;
   margin-bottom: 80px;
   font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: tamanho-do-texto/1.5;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #21094E;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #511281;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #511281;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #4CA1A3;
+  padding: 4rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
